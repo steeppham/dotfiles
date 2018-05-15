@@ -94,6 +94,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+# NVM
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
+
 source "/Users/spham/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 # Set Spaceship ZSH as a prompt
