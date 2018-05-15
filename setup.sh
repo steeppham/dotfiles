@@ -2,6 +2,9 @@
 
 echo "Setting up..."
 
+# Install xcode command line tools
+xcode-select --install
+
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -12,3 +15,7 @@ brew update
 
 # Install brew packages (Brewfile)
 brew bundle
+brew doctor
+
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
