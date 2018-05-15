@@ -1,3 +1,5 @@
+tap 'caskroom/cask'
+
 brew 'zsh'
 brew 'zsh-completions'
 brew 'git'
@@ -8,3 +10,5 @@ brew 'tig'
 brew 'tree'
 brew 'htop'
 brew 'nvm'
+
+cask 'iterm2'
