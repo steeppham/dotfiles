@@ -1,0 +1,33 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vs-seti",
+  "window.zoomLevel": 0,
+  "files.autoSave": "onFocusChange",
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude":{
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".webpack" : true
+  },
+  "workbench.colorTheme": "One Monokai",
+  "editor.detectIndentation": false,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": true,
+  "eslint.autoFixOnSave": true,
+  "gitlens.advanced.messages": {
+    "suppressResultsExplorerNotice": true,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.keymap": "alternate"
+}
