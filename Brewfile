@@ -1,7 +1,5 @@
 tap 'caskroom/cask'
 
-brew 'zsh'
-brew 'zsh-completions'
 brew 'git'
 brew 'awscli'
 brew 'vim'
