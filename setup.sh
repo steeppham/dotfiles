@@ -16,9 +16,3 @@ brew update
 # Install brew packages (Brewfile)
 brew bundle
 brew doctor
-
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# Create symlinks
-ln -sv .zshrc ~
