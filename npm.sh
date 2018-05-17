@@ -8,11 +8,3 @@
 . $(brew --prefix nvm)/nvm.sh
 nvm install 8
 nvm alias default 8
-
-packages=(
-  tldr
-  spaceship-prompt
-)
-
-# Install global packes
-npm install -g "${packages[@]}"

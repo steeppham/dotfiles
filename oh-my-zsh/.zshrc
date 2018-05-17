@@ -7,7 +7,7 @@ export ZSH=/Users/spham/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME=""
+ZSH_THEME="spaceship"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -97,12 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # nvm
 export NVM_DIR="$HOME/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"
-
-source "/Users/spham/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
-
-# Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
 
 # hstr
 export HISTFILE=~/.zsh_history  # ensure history file visibility
