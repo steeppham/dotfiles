@@ -7,6 +7,7 @@ brew 'wget'
 brew 'tig'
 brew 'tree'
 brew 'htop'
+brew 'hh'
 brew 'nvm'
 
 cask 'iterm2'
