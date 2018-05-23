@@ -11,3 +11,5 @@ brew 'hh'
 brew 'tldr'
 brew 'nvm'
 
+cask 'postman'
+cask 'docker'
