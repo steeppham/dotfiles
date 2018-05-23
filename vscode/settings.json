@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "vs-seti",
+  "workbench.iconTheme": "vscode-icons",
   "window.zoomLevel": 0,
   "files.autoSave": "onFocusChange",
   "editor.renderIndentGuides": true,
@@ -19,15 +19,11 @@
     "**/.DS_Store": true,
     ".webpack" : true
   },
-  "workbench.colorTheme": "One Monokai",
   "editor.detectIndentation": false,
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
   "editor.minimap.enabled": true,
   "eslint.autoFixOnSave": true,
-  "gitlens.advanced.messages": {
-    "suppressResultsExplorerNotice": true,
-    "suppressShowKeyBindingsNotice": true
-  },
-  "gitlens.keymap": "alternate"
+  "workbench.colorTheme": "Monokai Pro",
+  "terminal.integrated.fontFamily": "Menlo for Powerline"
 }
