@@ -1,7 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "vscode-icons",
   "window.zoomLevel": 0,
   "files.autoSave": "onFocusChange",
   "editor.renderIndentGuides": true,
@@ -25,5 +24,6 @@
   "editor.minimap.enabled": true,
   "eslint.autoFixOnSave": true,
   "workbench.colorTheme": "Monokai Pro",
-  "terminal.integrated.fontFamily": "Menlo for Powerline"
+  "terminal.integrated.fontFamily": "Menlo for Powerline",
+  "terminal.integrated.shellArgs.osx": []
 }
