@@ -2,13 +2,13 @@
 
 set -eo pipefail
 
-# Install iterm2
-brew cask install iterm2
-
 # Install powerline fonts
-git clone https://github.com/powerline/fonts.git ~/fonts
-sh ~/fonts/install.sh
-rm -rf ~/fonts
+# git clone https://github.com/powerline/fonts.git ~/fonts
+# sh ~/fonts/install.sh
+# rm -rf ~/fonts
 
 # Install menlo powerline font
-git clone https://github.com/abertsch/Menlo-for-Powerline.git
+brew cask install font-menlo-for-powerline
+
+# Preferences
+cp com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
