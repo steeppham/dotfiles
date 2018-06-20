@@ -93,19 +93,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-. "$(brew --prefix nvm)/nvm.sh"
-
-# hstr
-export HISTFILE=~/.zsh_history  # ensure history file visibility
-export HH_CONFIG=hicolor        # get more colors
-bindkey -s "\C-r" "\eqhh\n"     # bind hh to Ctrl-r (for Vi mode check doc)
-
 # zsh autosuggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
 # zsh syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# hstr
+export HISTFILE=~/.zsh_history  # ensure history file visibility
+export HH_CONFIG=hicolor        # get more colors
+bindkey -s "\C-r" "\eqhh\n"     # bind hh to Ctrl-r (for Vi mode check doc)
