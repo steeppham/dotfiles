@@ -11,6 +11,7 @@ brew 'hh'
 brew 'tldr'
 brew 'trash'
 
+cask 'google-chrome'
 cask 'postman'
 cask 'docker'
 cask 'spectacle'
