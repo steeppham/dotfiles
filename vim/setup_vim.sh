@@ -11,6 +11,5 @@ wget -P ~/.vim/autoload https://raw.githubusercontent.com/tpope/vim-pathogen/mas
 
 # Install solarized theme
 mkdir -p ~/.vim/bundle
-git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle
-mv vim-colors-solarized ~/.vim/bundle/
+git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
 
