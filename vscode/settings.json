@@ -22,8 +22,6 @@
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
   "editor.minimap.enabled": true,
-  "eslint.autoFixOnSave": true,
-  "workbench.colorTheme": "Monokai Pro",
   "terminal.integrated.fontFamily": "Menlo for Powerline",
   "terminal.integrated.shellArgs.osx": []
 }
