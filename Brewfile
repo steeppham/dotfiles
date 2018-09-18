@@ -11,6 +11,7 @@ brew 'htop'
 brew 'hh'
 brew 'tldr'
 brew 'trash'
+brew 'jq'
 
 cask 'google-chrome'
 cask 'iterm2'
