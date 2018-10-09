@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
+tap 'caskroom/versions'
 
 brew 'git'
 brew 'awscli'
@@ -18,3 +19,4 @@ cask 'iterm2'
 cask 'postman'
 cask 'docker'
 cask 'spectacle'
+cask 'caffeine'

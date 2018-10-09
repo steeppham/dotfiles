@@ -10,4 +10,5 @@ brew cask install visual-studio-code
 #code --install-extension monokai.theme-monokai-pro-vscode
 
 # Copy user settings.json
+mkdir -p ~/Library/Application\ Support/Code/User
 cp settings.json ~/Library/Application\ Support/Code/User/settings.json
