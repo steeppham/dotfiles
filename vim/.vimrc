@@ -162,3 +162,5 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
  
 "------------------------------------------------------------
+" FZF
+set rtp+=/usr/local/opt/fzf

@@ -14,6 +14,7 @@ brew 'tldr'
 brew 'trash'
 brew 'jq'
 brew 'autojump'
+brew 'fzf'
 
 cask 'google-chrome'
 cask 'iterm2'
