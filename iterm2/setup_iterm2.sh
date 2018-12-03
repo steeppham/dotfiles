@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eo pipefail
+set -euxo pipefail
 
 # Install powerline fonts
 # git clone https://github.com/powerline/fonts.git ~/fonts

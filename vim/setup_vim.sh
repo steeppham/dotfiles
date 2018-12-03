@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eo pipefail
+set -euxo pipefail
 
 # Copy vim config
 cp .vimrc ~/.

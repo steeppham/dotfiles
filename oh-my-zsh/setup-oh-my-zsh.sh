@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eo pipefail
+set -euxo pipefail
 
 # Install zsh
 brew install zsh zsh-completions zsh-autosuggestions zsh-syntax-highlighting

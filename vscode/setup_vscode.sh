@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eo pipefail
+set -euxo pipefail
 
 # Install vscode
 brew cask install visual-studio-code
