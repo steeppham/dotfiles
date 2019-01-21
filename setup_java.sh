@@ -10,6 +10,6 @@ echo 'eval "$(jenv init -)"' >> ~/.zshrc
 # Install java8
 brew cask install java8
 
-# jenv add $(/usr/libexec/java_home)
-# jenv global oracle64-1.8.0.181
+jenv add $(/usr/libexec/java_home)
+jenv global 1.8
 jenv enable-plugin export
