@@ -7,7 +7,7 @@ brew cask install visual-studio-code
 
 # Install extensions
 #code --install-extension dbaeumer.vscode-eslint
-#code --install-extension monokai.theme-monokai-pro-vscode
+#code --install-extension esbenp.prettier-vscode
 
 # Copy user settings.json
 mkdir -p ~/Library/Application\ Support/Code/User
