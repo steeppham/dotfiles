@@ -103,5 +103,5 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # hstr
 export HISTFILE=~/.zsh_history  # ensure history file visibility
-export HH_CONFIG=hicolor        # get more colors
+export HSTR_CONFIG=hicolor        # get more colors
 bindkey -s "\C-r" "\eqhh\n"     # bind hh to Ctrl-r (for Vi mode check doc)
