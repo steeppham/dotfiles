@@ -1,6 +1,4 @@
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
+tap 'homebrew/cask-fonts'
 
 brew 'git'
 brew 'awscli'
@@ -22,3 +20,5 @@ cask 'postman'
 cask 'docker'
 cask 'spectacle'
 cask 'caffeine'
+cask '1password'
+cask 'slack'
