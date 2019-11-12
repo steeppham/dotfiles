@@ -5,10 +5,8 @@ set -eo pipefail
 echo "Setting up..."
 
 # Install xcode command line tools
-if test ! $(xcode-select -p) ; then
-  echo "Installing xcode command line tools..."
-  xcode-select --install
-fi
+echo "Installing xcode command line tools..."
+xcode-select --install || true
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
