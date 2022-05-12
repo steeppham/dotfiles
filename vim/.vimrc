@@ -14,6 +14,23 @@
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
 set nocompatible
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" plugins
+" added nerdtree
+Plugin 'scrooloose/nerdtree'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
  
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
@@ -22,11 +39,9 @@ filetype indent plugin on
  
 " Enable syntax highlighting
 syntax on
-
 set termguicolors
 set background=dark
 colorscheme solarized8
- 
  
 "------------------------------------------------------------
 " Must have options {{{1
@@ -123,7 +138,7 @@ set mouse=a
 set cmdheight=2
  
 " Display line numbers on the left
-set number
+set number relativenumber
  
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200

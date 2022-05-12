@@ -14,6 +14,7 @@ brew 'jq'
 brew 'autojump'
 brew 'fzf'
 
+cask '1password'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'postman'
