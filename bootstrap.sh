@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-echo "Setting up..."
+echo "Bootstrapping..."
 
 # Install xcode command line tools
 echo "Installing xcode command line tools..."
@@ -10,8 +10,9 @@ xcode-select --install || true
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
-  echo "Installing homebrew.."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  echo "Installing homebrew..."
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 # Update Homebrew
@@ -21,3 +22,5 @@ brew update
 echo "Installing brew packages..."
 brew bundle
 brew doctor
+
+echo "Boostrap done!"
