@@ -22,7 +22,7 @@
     "Blue Component" : 0.63137254901960782,
     "Green Component" : 0.63137254901960782
   },
-  "Normal Font" : "CousineForPowerline 12",
+  "Normal Font" : "FiraMonoForPowerline-Regular 12",
   "Ansi 3 Color" : {
     "Red Component" : 0.70980392156862748,
     "Color Space" : "sRGB",
@@ -393,7 +393,7 @@
   },
   "Unicode Version" : 8,
   "ASCII Ligatures" : false,
-  "Name" : "Spaceship",
+  "Name" : "Profile",
   "Cursor Text Color" : {
     "Red Component" : 0.027450980392156866,
     "Color Space" : "sRGB",

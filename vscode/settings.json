@@ -1,13 +1,16 @@
 // Place your settings in this file to overwrite the default settings
 {
   "workbench.editor.enablePreview": false,
-  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": true,
   "files.autoSave": "onFocusChange",
+  "editor.fontFamily": "Fira Code",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": true,
   "editor.tabSize": 2,
-  "editor.tabCompletion": true,
+  "editor.tabCompletion": "on",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.exclude":{
@@ -16,12 +19,12 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    ".webpack" : true
+    "**/.vscode": true
   },
   "editor.detectIndentation": false,
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
   "editor.minimap.enabled": true,
-  "terminal.integrated.fontFamily": "Menlo for Powerline",
-  "terminal.integrated.shellArgs.osx": []
+  "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+  "extensions.ignoreRecommendations": true
 }
