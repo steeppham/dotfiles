@@ -7,7 +7,7 @@ You will need to have `git` installed on begin setup on a clean system.
 Run the following commands prior to setup.
 
 ```console
-xcode-select install
+xcode-select --install
 softwareupdate --all --install
 ```
 
