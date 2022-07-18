@@ -22,6 +22,11 @@ git clone git@github.com:steeppham/dotfiles.git
 ```console
 ./bootstrap.sh
 ```
+```
+sudo visduo
+```
+
+`timestamp_timeout=3`
 
 3. Setup additional packages
 
