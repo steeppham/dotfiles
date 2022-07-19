@@ -2,7 +2,9 @@
 
 set -euxo pipefail
 
+brew install --cask iterm2
+
 # Install menlo powerline font
 # brew cask install font-menlo-for-powerline
 
-cp Profile.json ~/Library/Application Support/iTerm2/DynamicProfiles/.
+ln -sf $(pwd)/Profiles.json ~/Library/Application\ Support/iTerm2/DynamicProfiles/.
