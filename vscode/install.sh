@@ -10,5 +10,5 @@ code --install-extension aaron-bond.better-comments
 code --install-extension monokai.theme-monokai-pro-vscode
 
 # Copy user settings.json
-# mkdir -p ~/Library/Application\ Support/Code/User
-# ln -sf settings.json ~/Library/Application\ Support/Code/User/settings.json
+mkdir -p ~/Library/Application\ Support/Code/User
+ln -sf $(pwd)/settings.json ~/Library/Application\ Support/Code/User/.
